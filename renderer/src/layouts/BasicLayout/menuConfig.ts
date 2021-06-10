@@ -11,6 +11,11 @@ const asideMenuConfig = [
     path: '/node',
     icon: 'nodejs',
   },
+  {
+    name: 'npm 源管理',
+    path: '/npm',
+    icon: 'nodejs',
+  },
 ];
 
 export { headerMenuConfig, asideMenuConfig };
