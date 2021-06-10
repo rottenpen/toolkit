@@ -2,25 +2,17 @@
  * npm 数据源
  */
 class BasePackageManager {
-  checkPackageManagerInstalled(name: string) {
-
-  }
+  checkPackageManagerInstalled(name: string) {}
   /**
    * 使用仓库源
-   * @param name 
+   * @param name
    */
-  use(name: string) {
-
-  }
+  use(name: string) {}
   /**
    * 增加源
-   * @param name 
-   * @param url 
+   * @param name
+   * @param url
    */
-  add(name: string, url: string) {
-
-  }
-  list() {
-    
-  }
+  add(name: string, url: string) {}
+  list() {}
 }
